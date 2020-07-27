@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Learn Countries</title>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1">
+<style>
+body {font-family: courier, monospace;
+      background-color: #F4E2CF; 
+}
+
+.row  {display: dropdown
+}
+.dropbtn {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E2EBEB;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 15px;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:#ddd;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+    
+h1 {color: teal;
+    text-align: center;
+}
+
+h3 {color: fuchsia;
+}
+
+table.center {margin-left:auto;
+margin-right:auto;
+}
+
+option {display:block;
+text-align:center;
+}
+
+select{text-align-last: right;}
+
+label {display:block; width:50; text-align:center;}
+</style>
+</head>
+<body>
+
+<form method="get" action="fixer-of-it.py">
+
+<h1> <b> LEARN NATIONS </b> </h1>
+<br/>
+<br/>
+<br/>
+<center><table border="1"><tbody><tr><td width="560" height="200">
+<h3 style="text-align:center;"> Pick a Nice Country </h3>
+<div class="row">
+<div class="dropdown">
+    <button class="dropbtn">options</button>
+    <div class="dropdown-content">
+        <a href="http://moe.stuy.edu/~icosar20/netherlands.html">Netherlands</a>
+	<a href="http://moe.stuy.edu/~icosar20/turkey.html">Turkey</a>
+	<a href="http://moe.stuy.edu/~icosar20/argentina.html">Argentina</a>
+	<a href="http://moe.stuy.edu/~icosar20/germany.html">Germany</a>
+	<a href="http://moe.stuy.edu/~icosar20/japan.html">Japan</a>
+	<a href="http://moe.stuy.edu/~icosar20/usa.html">U.S.A.</a>
+</div>
+</div>
+</td><td width="560" height="200">
+
+<h3 style="text-align:center;"> Possible questions </h3>
+<label for="soru">Question:</label>
+<select name="soru" dir="ltr">
+    <option value="food/news">I wanna write about its culture</option>
+    <option value="edu">I want a good education for my kids</option>
+    <option value="business">Just wanna do some business there </option>
+    <option value="fun">Have fun for an entire month</option>
+    <option value="unique">Has to have four seasons and activities</option>
+</select>
+</div> </td></tr></tbody></table></center>
+
+<br/> <br/>
+<p align="center"><input type="submit"
+  value="Submit" name="pushit"</p>
+<br/>
+<br/>
+<br/>
+<br/>
+<a href="http://moe.stuy.edu/~icosar20/AboutPage.html">About Page</a>
+</form>
+</body>
+</html>

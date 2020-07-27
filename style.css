@@ -1,0 +1,48 @@
+.first-line {
+    display: block;
+}
+.drpdown img {
+    width: 50px;
+    height: 70px;
+}
+.drpbutton {
+    background-color: rgb(129, 236, 201);
+    padding: 2px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 8px 12px;
+}
+.drpdown {
+    position: fixed;
+}
+.dropdown-content {
+    display: none;
+    background-color: rgb(224, 152, 152);
+    min-width: 160px;
+}
+.drpdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.dropdown-content a:hover {
+    background-color: rgb(155, 109, 109);
+}
+.name {
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: seagreen;
+    font-size: x-large;
+    color:whitesmoke;
+    border: 3px solid whitesmoke;
+    padding: 1px;
+}
+body {
+    background-image: url("images/SunsetGokceada.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

@@ -1,0 +1,29 @@
+.first-line {
+    text-align: center;
+    margin: 20px;
+    border-radius: 8xp;
+    border: 3px solid whitesmoke;
+    padding: 5px;
+    background-color: whitesmoke;
+    margin-bottom: 50px;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.main-content img {
+    width: 375px;
+    height: 300px;
+}
+h3 {
+    text-align: center;
+    color: tomato;
+}
+.smiley {
+    border-color: green;
+    width: 365px;
+}
+
