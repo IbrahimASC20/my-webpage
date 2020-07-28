@@ -3,7 +3,7 @@
 }
 .drpdown img {
     width: 50px;
-    height: 70px;
+    height: 55px;
 }
 .drpbutton {
     background-color: rgb(129, 236, 201);
@@ -25,19 +25,22 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 10px;
 }
 .dropdown-content a:hover {
     background-color: rgb(155, 109, 109);
 }
 .name {
     margin: auto;
+    margin-top: 45px;
     width: fit-content;
-    height: fit-content;
-    background-color: seagreen;
-    font-size: x-large;
+    line-height: 10px;
     color:whitesmoke;
+    padding: 5px;
+    font-size: x-large;
     border: 3px solid whitesmoke;
-    padding: 1px;
+    /*background-color: rgb(206, 39, 39);
+    */
 }
 body {
     background-image: url("images/SunsetGokceada.jpg");
@@ -45,4 +48,16 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+h3 {
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+    color:white;
+    font-family: 'Recursive', sans-serif;
+    width: fit-content;
+    padding: 10px;
+    /*background-color: rgb(206, 20, 20);
+    border: 1px solid whitesmoke;
+     */
 }
