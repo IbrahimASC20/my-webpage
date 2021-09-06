@@ -1,0 +1,33 @@
+.first-line {
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 45px;
+    border: 3px solid #cc5500;
+    padding: 7px;
+    background-color: whitesmoke;
+}
+
+h3 {
+    margin-left: 50px;
+    margin-bottom: 25px;
+
+}
+
+.whole {
+    background-color: #E0C9A6; 
+}
+
+ul {
+    margin-left: 85px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.pirate {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
