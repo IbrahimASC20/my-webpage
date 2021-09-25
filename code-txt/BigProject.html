@@ -10,7 +10,7 @@ body {font-family: courier, monospace;
       background-color: #F4E2CF; 
 }
 
-.row  {display: dropdown
+.row  {display: dropdown;
 }
 .dropbtn {
     background-color: green;
@@ -68,7 +68,7 @@ label {display:block; width:50; text-align:center;}
 </head>
 <body>
 
-<form method="get" action="fixer-of-it.py">
+<form method="GET" action="fixer-of-it.py">
 
 <h1> <b> LEARN NATIONS </b> </h1>
 <br/>
@@ -80,35 +80,36 @@ label {display:block; width:50; text-align:center;}
 <div class="dropdown">
     <button class="dropbtn">options</button>
     <div class="dropdown-content">
-        <a href="http://moe.stuy.edu/~icosar20/netherlands.html">Netherlands</a>
-	<a href="http://moe.stuy.edu/~icosar20/turkey.html">Turkey</a>
-	<a href="http://moe.stuy.edu/~icosar20/argentina.html">Argentina</a>
-	<a href="http://moe.stuy.edu/~icosar20/germany.html">Germany</a>
-	<a href="http://moe.stuy.edu/~icosar20/japan.html">Japan</a>
-	<a href="http://moe.stuy.edu/~icosar20/usa.html">U.S.A.</a>
-</div>
+        <a href="http://moe.stuy.edu/~icosar20/netherlands.html" target="_blank">Netherlands</a>
+	      <a href="http://moe.stuy.edu/~icosar20/turkey.html" target="_blank">Turkey</a>
+	      <a href="http://moe.stuy.edu/~icosar20/argentina.html" target="_blank">Argentina</a>
+	      <a href="http://moe.stuy.edu/~icosar20/germany.html" target="_blank">Germany</a>
+	      <a href="http://moe.stuy.edu/~icosar20/japan.html" target="_blank">Japan</a>
+	      <a href="http://moe.stuy.edu/~icosar20/usa.html" target="_blank">U.S.A.</a>
+    </div>
 </div>
 </td><td width="560" height="200">
 
-<h3 style="text-align:center;"> Possible questions </h3>
-<label for="soru">Question:</label>
+<h3 style="text-align:center;"> Possible Reasons </h3>
+<label for="soru">Reason:</label>
 <select name="soru" dir="ltr">
-    <option value="food/news">I wanna write about its culture</option>
-    <option value="edu">I want a good education for my kids</option>
-    <option value="business">Just wanna do some business there </option>
-    <option value="fun">Have fun for an entire month</option>
+    <option value="food/news">Want to explore and write about its culture</option>
+    <option value="edu">Good education for my kids</option>
+    <option value="business">Business opportunities</option>
+    <option value="fun">Party hard for an entire month</option>
     <option value="unique">Has to have four seasons and activities</option>
 </select>
 </div> </td></tr></tbody></table></center>
 
 <br/> <br/>
-<p align="center"><input type="submit"
-  value="Submit" name="pushit"</p>
+
+<p align="center"><input type="submit" 
+  value="Submit" name="pushit"></p>
 <br/>
 <br/>
 <br/>
 <br/>
-<a href="http://moe.stuy.edu/~icosar20/AboutPage.html">About Page</a>
+<center><a href="http://moe.stuy.edu/~icosar20/AboutPage.html" target="_blank">About Page</a></center>
 </form>
 </body>
 </html>

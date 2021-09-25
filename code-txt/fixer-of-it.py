@@ -12,6 +12,7 @@ points,</td></tr>
 </center>
 </body></html>
 '''
+
 import cgi, cgitb
 cgitb.enable()
 
@@ -84,7 +85,7 @@ def findem():
         'Arg' : 8,
     }
     
-    description=form.getvalue('soru','')
+    description = form.getvalue('soru','')
     if description=="":
         print("<h1> Error </h1>")
         print("Please fill in one of the checkboxes")

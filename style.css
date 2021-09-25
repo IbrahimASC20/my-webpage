@@ -1,5 +1,5 @@
 .first-line {
-    display: block;
+    display: flex;
 }
 .drpdown img {
     width: 50px;
@@ -11,7 +11,7 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    margin: 8px 12px;
+    margin: 20px 25px;
 }
 .drpdown {
     position: fixed;
@@ -31,16 +31,17 @@
     background-color: rgb(155, 109, 109);
 }
 .name {
-    margin: auto;
-    margin-top: 45px;
-    width: fit-content;
-    line-height: 10px;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: auto;
+    margin-top: 20px;
+    line-height: 20px;
     color:whitesmoke;
-    padding: 5px;
+    padding: 1px;
     font-size: x-large;
-    border: 3px solid whitesmoke;
-    /*background-color: rgb(206, 39, 39);
-    */
+    border: 5px solid rgb(136, 26, 26);
+    background-color: rgb(206, 39, 39);
+    
 }
 body {
     background-image: url("images/SunsetGokceada.jpg");
@@ -51,13 +52,30 @@ body {
 }
 h3 {
     margin: auto;
+    margin-right: 60px;
     text-align: center;
     font-size: larger;
-    color:white;
+    color: beige;
     font-family: 'Recursive', sans-serif;
-    width: fit-content;
     padding: 10px;
-    /*background-color: rgb(206, 20, 20);
-    border: 1px solid whitesmoke;
-     */
+   /* background-color: rgb(206, 20, 20);
+    border: 1px solid whitesmoke; */
+     
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.giddy {
+    background-color: tomato;
+    border-radius: 2cm;
+    cursor: pointer;
+    margin: 20px 12px;
+}
+.insta {
+    border-radius: 2cm;
+    margin: 20px 12px;
+    cursor: pointer;
 }

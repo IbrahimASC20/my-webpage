@@ -1,11 +1,11 @@
 .first-line {
     text-align: center;
-    margin: 20px;
+    margin: 30px;
     border-radius: 8xp;
     border: 3px solid whitesmoke;
-    padding: 5px;
+    padding: 7px;
     background-color: whitesmoke;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 .main-content {
     display: flex;
@@ -23,9 +23,9 @@
     width: 345px;
     height: 220px;
 }
-h3 {
+h2 {
     text-align: center;
-    color: tomato;
+    color: red;
 }
 .table {
     padding: 5px;
@@ -38,8 +38,4 @@ h3 {
     width: 675px;
     height: 100px;
 }
-.basel img {
-    display: inline-block;
-    width: 500px;
-    height: 100px; 
-}
+
